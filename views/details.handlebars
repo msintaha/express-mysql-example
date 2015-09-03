@@ -1,0 +1,21 @@
+<div class="ui container">
+<br><br>
+<h1>Posts</h1>
+
+<div class="ui cards">
+{{#each posts}}
+  <div class="card">
+    <div class="content">
+      <div class="header">{{title}}</div>
+      <div class="meta">{{category}}</div>
+      <div class="description">
+       {{description}}
+      </div>
+    </div>
+   <a href="/delete/{{id}}"><button class="ui orange basic button">Delete</button></a>
+   <a href="/edit/{{id}}"><button class="ui green basic button">Edit</button></a>
+  </div>
+    {{/each}}
+ </div>
+
+ </div>

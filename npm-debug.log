@@ -1,0 +1,169 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json exp@1.0.0 No description
+6 warn package.json exp@1.0.0 No repository field.
+7 warn package.json exp@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ '/home/mifta/exp', [ 'express' ] ]
+10 info preinstall exp@1.0.0
+11 verbose readDependencies using package.json deps
+12 verbose already installed skipping express@^4.13.3 /home/mifta/exp
+13 silly resolved []
+14 info build /home/mifta/exp
+15 verbose linkStuff [ false, false, false, '/home/mifta' ]
+16 info linkStuff exp@1.0.0
+17 verbose linkBins exp@1.0.0
+18 verbose linkMans exp@1.0.0
+19 verbose rebuildBundles exp@1.0.0
+20 verbose rebuildBundles [ '.bin',
+20 verbose rebuildBundles   'better-console',
+20 verbose rebuildBundles   'body-parser',
+20 verbose rebuildBundles   'del',
+20 verbose rebuildBundles   'express',
+20 verbose rebuildBundles   'express-handlebars',
+20 verbose rebuildBundles   'extend',
+20 verbose rebuildBundles   'gulp',
+20 verbose rebuildBundles   'gulp-autoprefixer',
+20 verbose rebuildBundles   'gulp-chmod',
+20 verbose rebuildBundles   'gulp-clone',
+20 verbose rebuildBundles   'gulp-concat',
+20 verbose rebuildBundles   'gulp-concat-css',
+20 verbose rebuildBundles   'gulp-copy',
+20 verbose rebuildBundles   'gulp-flatten',
+20 verbose rebuildBundles   'gulp-header',
+20 verbose rebuildBundles   'gulp-help',
+20 verbose rebuildBundles   'gulp-if',
+20 verbose rebuildBundles   'gulp-less',
+20 verbose rebuildBundles   'gulp-minify-css',
+20 verbose rebuildBundles   'gulp-notify',
+20 verbose rebuildBundles   'gulp-plumber',
+20 verbose rebuildBundles   'gulp-print',
+20 verbose rebuildBundles   'gulp-rename',
+20 verbose rebuildBundles   'gulp-replace',
+20 verbose rebuildBundles   'gulp-rtlcss',
+20 verbose rebuildBundles   'gulp-uglify',
+20 verbose rebuildBundles   'gulp-util',
+20 verbose rebuildBundles   'gulp-watch',
+20 verbose rebuildBundles   'map-stream',
+20 verbose rebuildBundles   'mysql',
+20 verbose rebuildBundles   'passport',
+20 verbose rebuildBundles   'require-dot-file',
+20 verbose rebuildBundles   'semantic-ui',
+20 verbose rebuildBundles   'yamljs' ]
+21 verbose rebuild bundle /home/mifta/exp/node_modules/better-console
+22 info build /home/mifta/exp/node_modules/better-console
+23 info preinstall better-console@0.2.4
+24 verbose linkStuff [ false, false, false, '/home/mifta/exp/node_modules' ]
+25 info linkStuff better-console@0.2.4
+26 verbose linkBins better-console@0.2.4
+27 verbose linkMans better-console@0.2.4
+28 verbose rebuildBundles better-console@0.2.4
+29 verbose rebuildBundles [ 'cli-table', 'colors' ]
+30 info install better-console@0.2.4
+31 info postinstall better-console@0.2.4
+32 verbose rebuild bundle /home/mifta/exp/node_modules/body-parser
+33 info build /home/mifta/exp/node_modules/body-parser
+34 info preinstall body-parser@1.13.3
+35 verbose linkStuff [ false, false, false, '/home/mifta/exp/node_modules' ]
+36 info linkStuff body-parser@1.13.3
+37 verbose linkBins body-parser@1.13.3
+38 verbose linkMans body-parser@1.13.3
+39 verbose rebuildBundles body-parser@1.13.3
+40 verbose rebuildBundles [ 'bytes',
+40 verbose rebuildBundles   'content-type',
+40 verbose rebuildBundles   'debug',
+40 verbose rebuildBundles   'depd',
+40 verbose rebuildBundles   'http-errors',
+40 verbose rebuildBundles   'iconv-lite',
+40 verbose rebuildBundles   'on-finished',
+40 verbose rebuildBundles   'qs',
+40 verbose rebuildBundles   'raw-body',
+40 verbose rebuildBundles   'type-is' ]
+41 info install body-parser@1.13.3
+42 info postinstall body-parser@1.13.3
+43 verbose rebuild bundle /home/mifta/exp/node_modules/del
+44 info build /home/mifta/exp/node_modules/del
+45 info preinstall del@1.2.1
+46 verbose linkStuff [ false, false, false, '/home/mifta/exp/node_modules' ]
+47 info linkStuff del@1.2.1
+48 verbose linkBins del@1.2.1
+49 verbose linkMans del@1.2.1
+50 verbose rebuildBundles del@1.2.1
+51 verbose rebuildBundles [ '.bin',
+51 verbose rebuildBundles   'each-async',
+51 verbose rebuildBundles   'globby',
+51 verbose rebuildBundles   'is-path-cwd',
+51 verbose rebuildBundles   'is-path-in-cwd',
+51 verbose rebuildBundles   'object-assign',
+51 verbose rebuildBundles   'rimraf' ]
+52 info install del@1.2.1
+53 info postinstall del@1.2.1
+54 verbose rebuild bundle /home/mifta/exp/node_modules/express-handlebars
+55 info build /home/mifta/exp/node_modules/express-handlebars
+56 info preinstall express-handlebars@2.0.1
+57 verbose linkStuff [ false, false, false, '/home/mifta/exp/node_modules' ]
+58 info linkStuff express-handlebars@2.0.1
+59 verbose linkBins express-handlebars@2.0.1
+60 verbose linkMans express-handlebars@2.0.1
+61 verbose rebuildBundles express-handlebars@2.0.1
+62 verbose rebuildBundles [ '.bin',
+62 verbose rebuildBundles   'glob',
+62 verbose rebuildBundles   'graceful-fs',
+62 verbose rebuildBundles   'handlebars',
+62 verbose rebuildBundles   'object.assign',
+62 verbose rebuildBundles   'promise' ]
+63 info install express-handlebars@2.0.1
+64 info postinstall express-handlebars@2.0.1
+65 verbose rebuild bundle /home/mifta/exp/node_modules/extend
+66 info build /home/mifta/exp/node_modules/extend
+67 info preinstall extend@3.0.0
+68 verbose linkStuff [ false, false, false, '/home/mifta/exp/node_modules' ]
+69 info linkStuff extend@3.0.0
+70 verbose linkBins extend@3.0.0
+71 verbose linkMans extend@3.0.0
+72 verbose rebuildBundles extend@3.0.0
+73 info install extend@3.0.0
+74 info postinstall extend@3.0.0
+75 verbose rebuild bundle /home/mifta/exp/node_modules/gulp
+76 info build /home/mifta/exp/node_modules/gulp
+77 info preinstall gulp@3.9.0
+78 verbose linkStuff [ false, false, false, '/home/mifta/exp/node_modules' ]
+79 info linkStuff gulp@3.9.0
+80 verbose linkBins gulp@3.9.0
+81 verbose link bins [ { gulp: './bin/gulp.js' },
+81 verbose link bins   '/home/mifta/exp/node_modules/.bin',
+81 verbose link bins   false ]
+82 verbose linkMans gulp@3.9.0
+83 verbose rebuildBundles gulp@3.9.0
+84 verbose rebuildBundles [ '.bin',
+84 verbose rebuildBundles   'archy',
+84 verbose rebuildBundles   'chalk',
+84 verbose rebuildBundles   'deprecated',
+84 verbose rebuildBundles   'interpret',
+84 verbose rebuildBundles   'liftoff',
+84 verbose rebuildBundles   'minimist',
+84 verbose rebuildBundles   'orchestrator',
+84 verbose rebuildBundles   'pretty-hrtime',
+84 verbose rebuildBundles   'semver',
+84 verbose rebuildBundles   'tildify',
+84 verbose rebuildBundles   'v8flags',
+84 verbose rebuildBundles   'vinyl-fs' ]
+85 error Error: EACCES, unlink '/home/mifta/exp/node_modules/.bin/gulp'
+85 error  { [Error: EACCES, unlink '/home/mifta/exp/node_modules/.bin/gulp']
+85 error   errno: 3,
+85 error   code: 'EACCES',
+85 error   path: '/home/mifta/exp/node_modules/.bin/gulp' }
+86 error Please try running this command again as root/Administrator.
+87 error System Linux 3.16.0-37-generic
+88 error command "/usr/bin/node" "/usr/bin/npm" "install"
+89 error cwd /home/mifta/exp
+90 error node -v v0.10.37
+91 error npm -v 1.4.28
+92 error path /home/mifta/exp/node_modules/.bin/gulp
+93 error code EACCES
+94 error errno 3
+95 error stack Error: EACCES, unlink '/home/mifta/exp/node_modules/.bin/gulp'
+96 verbose exit [ 3, true ]
